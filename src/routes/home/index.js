@@ -1,13 +1,84 @@
 import { h, Component } from 'preact';
-import style from './style';
+import About from '../about';
+import Contacts from '../contacts';
+import Portfolio from '../portfolio';
+import { TypewriterWrapper } from './style';
 
 export default class Home extends Component {
-	render() {
-		return (
-			<div class={style.home}>
-				<h1>Home</h1>
-				<p>This is the Home component.</p>
-			</div>
-		);
-	}
+  componentDidMount() {
+    const elements = document.getElementsByClassName('typewrite');
+    for (let i = 0; i < elements.length; i++) {
+      let toRotate = elements[i].getAttribute('data-type');
+      let period = elements[i].getAttribute('data-period');
+      if (toRotate) {
+        this.TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    let css = document.createElement('style');
+    css.type = 'text/css';
+    css.innerHTML = '.typewrite > .wrap { border-right: 0.08em solid #FFF}';
+    document.body.appendChild(css);
+  }
+
+  tick = () => {
+    let i = this.loopNum % this.toRotate.length;
+    let fullTxt = this.toRotate[i];
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    }
+    else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+    let that = this;
+    let delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) { delta /= 2; }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    }
+    else if (this.isDeleting && this.txt === '') {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(() => {
+      that.tick();
+    }, delta);
+  }
+
+  TxtType = (el, toRotate, period) => {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = '';
+    this.tick();
+    this.isDeleting = false;
+  }
+  render() {
+    return (
+      <div>
+        <div id="home" class="bannerImage">
+          <TypewriterWrapper>
+            <h1>Hi, I am Arijit</h1>
+            <h3>
+              <span class="typewrite" data-period="2000" data-type='[ "Frontend developer", "Open source enthusiast", "PWA Fanboy", "Foodie & Traveller" ]'>
+                <span class="wrap" />
+              </span>
+            </h3>
+          </TypewriterWrapper>
+        </div>
+        <Portfolio />
+        <About />
+        <Contacts />
+      </div>
+    );
+  }
 }
