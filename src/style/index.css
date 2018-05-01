@@ -125,7 +125,7 @@ ul {
 
 .bannerImage {
   height: 100vh;
-  background-image: url('../assets/computer1.jpg');
+  background-image: url('../assets/computer.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -135,7 +135,7 @@ ul {
 
 .profilePic {
   height: 600px;
-  background-image: url('../assets/user1.jpg');
+  background-image: url('../assets/user.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
