@@ -44,11 +44,11 @@ ul {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?49yw57');
-  src:  url('../fonts/icomoon.eot?49yw57#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?49yw57') format('truetype'),
-    url('../fonts/icomoon.woff?49yw57') format('woff'),
-    url('../fonts/icomoon.svg?49yw57#icomoon') format('svg');
+  src:  url('../fonts/icomoon.woff2?49yw57') format('woff2'),
+        url('../fonts/icomoon.woff?49yw57') format('woff'),
+        url('../fonts/icomoon.eot?49yw57#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?49yw57') format('truetype'),
+        url('../fonts/icomoon.svg?49yw57#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -128,7 +128,7 @@ ul {
   background-image: url('../assets/computer.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 0 -50px;
   background-attachment: fixed;
   position:  relative;
 }
@@ -138,7 +138,7 @@ ul {
   background-image: url('../assets/user.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 0 -50px;
   position: relative;
 }
 
@@ -159,5 +159,5 @@ ul {
 }
 
 .wrapper {
-  background-color: #1e88e5;
+  background-color: #796150;
 }
