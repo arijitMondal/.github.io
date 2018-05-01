@@ -17,14 +17,15 @@ export const NavWrapper = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    background-color: #1e88e5;
+    background-color: #5B3C31;
     opacity: 0.5;
     transform: translateX(100%);
     transition: all 400ms ease-in;
     li {
-      font-size: 4em;
+      font-size: 50px;
       color: #fff;
       opacity: 0;
+      padding: 20px 0;
       transform: translateY(2%);
       transition: all 300ms ease-in;
       cursor: pointer;
