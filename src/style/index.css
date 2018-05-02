@@ -108,8 +108,8 @@ ul {
 .icon-github:before {
   content: "\eab0";
 }
-.icon-linkedin:before {
-  content: "\eac9";
+.icon-linkedin2:before {
+  content: "\eaca";
 }
 
 .row {
@@ -128,7 +128,7 @@ ul {
   background-image: url('../assets/computer.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -50px;
+  background-position: center center;
   background-attachment: fixed;
   position:  relative;
 }
@@ -138,7 +138,7 @@ ul {
   background-image: url('../assets/user.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -50px;
+  background-position: center top;
   position: relative;
 }
 

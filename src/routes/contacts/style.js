@@ -51,20 +51,24 @@ export const ContactWrapper = styled.div`
 
   .social a {
     padding: 15px;
-    margin: 0 7px;
+    margin: 0 10px;
     display: inline-block;
     border-radius: 50px;
     background-color: white;
     &:hover {
       animation: zoom 200ms ease-in;
     }
+    span {
+      font-size: 30px;
+    }
   }
 
   .footer {
     position: absolute;
-    text-align: left;
+    text-align: center;
     bottom: 5px;
-    left: 15px;
+    line-height: 22px;
+    width: calc(100% - 50px);
   }
 
   .icon-heart {
