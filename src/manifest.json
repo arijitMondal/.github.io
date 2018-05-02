@@ -1,11 +1,11 @@
 {
-  "name": "portfolio",
-  "short_name": "portfolio",
+  "name": "Arijit Mondal",
+  "short_name": "arijit mondal",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#673ab8",
+  "theme_color": "#5B3C31",
   "icons": [
     {
       "src": "/assets/icons/android-chrome-192x192.png",
