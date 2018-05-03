@@ -2,6 +2,10 @@ import { h, Component } from "preact";
 import { ContactWrapper } from "./style";
 
 export default class Contacts extends Component {
+  componentDidMount() {
+    document.getElementById('app').style.visibility = 'visible';
+  }
+
   render() {
     return (
       <div id="contacts" class="contacts">

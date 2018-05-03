@@ -8,80 +8,54 @@ export const PortfolioWrapper = styled.ul`
     font-size: 60px;
   }
   li {
-     height: 250px;
+    height: 250px;
     position: relative;
     width: 300px;
     margin: 30px 10px 0 10px;
+    color: white;
     &:nth-child(1) {
       .banner {
-        background-color: #A65FE7;
-      }
-      .desc {
-        color: #A65FE7;
+        background-color: #E7434E;
       }
     }
     &:nth-child(2) {
       .banner {
-        background-color: #FFEBB5;
-      }
-      .desc {
-        color: #FFEBB5;
+        background-color: #d7a800;
       }
     }
     &:nth-child(3) {
       .banner {
-        background-color: #5F92CB;
-      }
-      .desc {
-        color: #5F92CB;
+        background-color: #773451;
       }
     }
     &:nth-child(4) {
       .banner {
-        background-color: #CD6D54;
-      }
-      .desc {
-        color: #CD6D54;
+        background-color: #C700DB;
       }
     }
     &:nth-child(5) {
       .banner {
-        background-color: #DBF1FA;
-      }
-      .desc {
-        color: #DBF1FA;
+        background-color: #386872;
       }
     }
     &:nth-child(6) {
       .banner {
-        background-color: #FED766;
-      }
-      .desc {
-        color: #FED766;
+        background-color: #6E723A;
       }
     }
     &:nth-child(7) {
       .banner {
-        background-color: #F8AEAA;
-      }
-      .desc {
-        color: #F8AEAA;
+        background-color: #00B970;
       }
     }
     &:nth-child(8) {
       .banner {
-        background-color: #58B88C;
-      }
-      .desc {
-        color: #58B88C;
+        background-color: #E5005D;
       }
     }
     &:nth-child(9) {
       .banner {
-        background-color: #97CB67;
-      }
-      .desc {
-        color: #97CB67;
+        background-color: #0083A6;
       }
     }
     .banner {
