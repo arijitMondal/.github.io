@@ -23,3 +23,13 @@ export const TypewriterWrapper = styled.div`
     font-size: 30px;
   }
 `;
+
+export const BannerImage = styled.div`
+  height: 100vh;
+  background-image: url('../assets/computer.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position:  relative;
+`;

@@ -1,5 +1,4 @@
 import { h, Component } from "preact";
-import { Link } from "preact-router/match";
 import { PortfolioWrapper } from "./style";
 
 export default class Portfolio extends Component {

@@ -12,3 +12,20 @@ export const AboutContent = styled.div`
     font-size: 20px;
   }
 `;
+
+export const ProfilePic = styled.div`
+  height: 600px;
+  background-image: url('../assets/user.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: relative;
+  .layer {
+    background-color: #424b5fb3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`;

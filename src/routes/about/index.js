@@ -1,13 +1,12 @@
 import { h, Component } from "preact";
-import { Link } from "preact-router/match";
-import { AboutContent } from "./style";
+import { AboutContent, ProfilePic } from "./style";
 
 export default class About extends Component {
   render() {
     return (
       <div id="about" class="row">
         <div class="col6">
-          <div class="profilePic"><div class="layer"></div></div>
+          <ProfilePic><div class="layer"></div></ProfilePic>
         </div>
         <div class="col6 wrapper">
           <AboutContent>

@@ -123,33 +123,6 @@ ul {
   position: relative;
 }
 
-.bannerImage {
-  height: 100vh;
-  background-image: url('../assets/computer.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  position:  relative;
-}
-
-.profilePic {
-  height: 600px;
-  background-image: url('../assets/user.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  position: relative;
-}
-
-.layer {
-  background-color: #424b5fb3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 .header {
   font-size: 40px;

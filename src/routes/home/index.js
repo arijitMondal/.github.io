@@ -2,7 +2,7 @@ import { h, Component } from 'preact';
 import About from '../about';
 import Contacts from '../contacts';
 import Portfolio from '../portfolio';
-import { TypewriterWrapper } from './style';
+import { TypewriterWrapper, BannerImage } from './style';
 
 export default class Home extends Component {
   componentDidMount() {
@@ -64,8 +64,8 @@ export default class Home extends Component {
   }
   render() {
     return (
-      <div>
-        <div id="home" class="bannerImage">
+      <div id="home">
+        <BannerImage>
           <TypewriterWrapper>
             <h1>Hi, I am Arijit</h1>
             <h3>
@@ -74,7 +74,7 @@ export default class Home extends Component {
               </span>
             </h3>
           </TypewriterWrapper>
-        </div>
+        </BannerImage>
         <Portfolio />
         <About />
         <Contacts />
