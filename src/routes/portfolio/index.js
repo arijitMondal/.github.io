@@ -15,7 +15,6 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>TCS</h3>
               <p>Enterprise Blogging platform powered by react/redux, es6, webpack.</p>
             </div>
           </li>
@@ -27,7 +26,6 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>PwC</h3>
               <p>Tax compliance platform built on AngularJs, grunt, bower.</p>
             </div>
           </li>
@@ -39,7 +37,6 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>TCS</h3>
               <p>Enterprise Document sharing platform powered by AngularJs, grunt, bower.</p>
             </div>
           </li>
@@ -51,7 +48,6 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>TCS</h3>
               <p>Enterprise Collaboration app powered by AngularJs, ngReact, reactjs, grunt.</p>
             </div>
           </li>
@@ -63,7 +59,6 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>Target</h3>
               <p>Hybrid app for product delivery powered by AngularJs, cordova, Ionic</p>
             </div>
           </li>
@@ -75,8 +70,7 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>GE Oil & Gas</h3>
-              <p>Gamified machine managing platform powered by AngularJs, bootstrap, grunt, bower.</p>
+              <p>Gamified machine managing platform powered by AngularJs, bootstrap, grunt.</p>
             </div>
           </li>
           <li>
@@ -87,8 +81,7 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>Singapore Airlines</h3>
-              <p>Hybrid app for maintaining flight schedule of airlines crew powered by Angularjs, Jquery mobile, css3, html5</p>
+              <p>Hybrid app for maintaining flight schedule of crew powered by Angularjs, Jq mobile</p>
             </div>
           </li>
           <li>
@@ -99,7 +92,6 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>Michales</h3>
               <p>Michaels responsive coupon site powered by html and css3.</p>
             </div>
           </li>
@@ -111,8 +103,7 @@ export default class Portfolio extends Component {
               </div>
             </div>
             <div class="desc">
-              <h3>TCS</h3>
-              <p>Enterprise social network platform powered by slim, html5, css3, coffeescript.</p>
+              <p>Enterprise social network platform powered by slim, html5, css3, Js.</p>
             </div>
           </li>
         </PortfolioWrapper>

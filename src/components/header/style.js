@@ -17,9 +17,9 @@ export const NavWrapper = styled.div`
     align-items: center;
     justify-content: center;
     position: absolute;
-    background-color: #5B3C31;
+    background-color: #000;
     opacity: 0.5;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     transition: all 400ms ease-in;
     li {
       font-size: 50px;

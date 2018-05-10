@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { media } from '../../style/media';
+
 export const ContactWrapper = styled.div`
   @keyframes zoom {
     0%, 100% {
@@ -16,6 +18,8 @@ export const ContactWrapper = styled.div`
   position: relative;
   h3 {
     font-size: 40px;
+    margin: 0 0 10px;
+    ${media.sm`margin: 0 0 30px;`};
   }
   .twitter {
     color: #1da1f2;
@@ -50,7 +54,8 @@ export const ContactWrapper = styled.div`
   }
 
   .social a {
-    padding: 15px;
+    padding: 10px;
+    ${media.sm`padding: 15px;`};
     margin: 0 10px;
     display: inline-block;
     border-radius: 50px;
@@ -59,7 +64,8 @@ export const ContactWrapper = styled.div`
       animation: zoom 200ms ease-in;
     }
     span {
-      font-size: 30px;
+      font-size: 20px;
+      ${media.sm`font-size: 30px;`};
     }
   }
 
